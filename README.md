@@ -32,7 +32,7 @@ The dataset is organised into training, validation, and test directories. Images
 - ImageNet-21k-pretrained `google/vit-base-patch16-224-in21k`.
 - Two-stage training: classifier-head training followed by full-model fine-tuning.
 - Image augmentation, class-weighted loss, learning-rate scheduling, and early stopping.
-- Grad-CAM used to generate a visual explanation for a ViT prediction.
+
 
 **Implementation:** `ViT.ipynb` (Python, PyTorch, Hugging Face Transformers)
 
@@ -82,7 +82,6 @@ The notebooks were developed for a Kaggle environment and expect the dataset to 
 3. Open `ViT.ipynb` in an environment with Python, PyTorch, torchvision, and Hugging Face Transformers installed.
 4. Run the notebook cells in order.
 
-The ViT notebook also installs `grad-cam` for the Grad-CAM visualisation step. GPU acceleration is recommended for model training.
 
 ## Limitations
 
