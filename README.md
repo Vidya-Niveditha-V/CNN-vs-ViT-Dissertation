@@ -18,7 +18,7 @@ The dataset is organised into training, validation, and test directories. Images
 
 ## Models and Approach
 
-### CNN — ResNet-50V2
+### CNN - ResNet-50V2
 
 - ImageNet-pretrained ResNet-50V2 backbone.
 - Custom classification head with global average pooling, a dense layer, dropout, and sigmoid output.
@@ -27,7 +27,7 @@ The dataset is organised into training, validation, and test directories. Images
 
 **Implementation:** `CNN.ipynb` (R, Keras, TensorFlow)
 
-### Vision Transformer — ViT-Base/16
+### Vision Transformer - ViT-Base/16
 
 - ImageNet-21k-pretrained `google/vit-base-patch16-224-in21k`.
 - Two-stage training: classifier-head training followed by full-model fine-tuning.
